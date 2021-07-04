@@ -26,10 +26,10 @@ typedef struct TestStruct {
 params initInfStruct() {
     params temp;
     temp.Sy = 0;
-    cout << "Ââåäòå Vy" << endl;
+    cout << "Ð’Ð²ÐµÐ´Ñ‚Ðµ Vy" << endl;
     cin >> temp.Vy;
     temp.Sx = 0;
-    cout << "Ââåäòå Vx" << endl;
+    cout << "Ð’Ð²ÐµÐ´Ñ‚Ðµ Vx" << endl;
     cin >> temp.Vx;
     return temp;
 }
@@ -105,7 +105,7 @@ List* MainCalculating(List* beg) {
     double btwTime = 0;
 
     while (btwTime <= 0) {
-        cout << "Ââåäèòå èíòåðâàë âðåìåíè: " << endl;
+        cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¸Ð½Ñ‚ÐµÑ€Ð²Ð°Ð» Ð²Ñ€ÐµÐ¼ÐµÐ½Ð¸: " << endl;
         cin >> btwTime;
     }
 
@@ -182,12 +182,12 @@ int main() {
     int choice = 0;
     while (true) {
         cout << endl;
-        cout << "1 – Ââåñòè ïàðàìåòðû" << endl;
-        cout << "2 – Ðàññ÷èòàòü ñèòóàöèþ" << endl;
-        cout << "3 – Çàïóñòèòü òåñòèðîâàíèå" << endl;
-        cout << "4 – Âûõîä" << endl;
+        cout << "1 â€“Â Ð’Ð²ÐµÑÑ‚Ð¸ Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ñ‹" << endl;
+        cout << "2 â€“Â Ð Ð°ÑÑÑ‡Ð¸Ñ‚Ð°Ñ‚ÑŒ ÑÐ¸Ñ‚ÑƒÐ°Ñ†Ð¸ÑŽ" << endl;
+        cout << "3 â€“ Ð—Ð°Ð¿ÑƒÑÑ‚Ð¸Ñ‚ÑŒ Ñ‚ÐµÑÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ" << endl;
+        cout << "4 â€“ Ð’Ñ‹Ñ…Ð¾Ð´" << endl;
         cout << "=========================" << endl;
-        cout << "Ââåäèòå íîìåð ïóíêòà ìåíþ" << endl;
+        cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð¼ÐµÑ€ Ð¿ÑƒÐ½ÐºÑ‚Ð° Ð¼ÐµÐ½ÑŽ" << endl;
         cin >> choice;
 
         switch (--choice) {
@@ -203,7 +203,7 @@ int main() {
         case 3:
             return 0;
         default:
-            cout << "Ââåäåí íåâåðíûé ïóíêò ìåíþ" << endl;
+            cout << "Ð’Ð²ÐµÐ´ÐµÐ½ Ð½ÐµÐ²ÐµÑ€Ð½Ñ‹Ð¹ Ð¿ÑƒÐ½ÐºÑ‚ Ð¼ÐµÐ½ÑŽ" << endl;
             break;
         }
     }
