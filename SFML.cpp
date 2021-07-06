@@ -66,26 +66,12 @@ int main()
 				H -= 0.5;
 			}
 		}
-
-		// Очищаем окно
 		window.clear();
-
-		// Создаем прямоугольник размером 200хH
 		RectangleShape rectangle(Vector2f(200.f, H));
-
-		// Перемещаем его в (200, Y)
 		rectangle.move(200, Y);
-
-		// Устанавливаем ему цвет
 		rectangle.setFillColor(Color::Red);
-
-		// Отрисовка прямоугольника
 		window.draw(rectangle);
-
-		// Отрисовка окна	
 		window.display();
 	}
-
-	// Завершить программу
 	return 0;
 }
